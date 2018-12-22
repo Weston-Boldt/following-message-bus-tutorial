@@ -18,12 +18,12 @@ all: bus
 bus: $(OBJS)
 	$(CXX) $(LDFLAGS) -o bus $(OBJS) $(LDLIBS)
 
-main.o: main.cpp
-
-Message.o: Message.cpp
-
-MessageBus.o: MessageBus.cpp
-
+#main.o: main.cpp
+#
+#Message.o: Message.cpp
+#
+#MessageBus.o: MessageBus.cpp
+#
 clean:
 	$(RM) $(OBJS)
 
